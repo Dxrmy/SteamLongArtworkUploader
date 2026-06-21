@@ -17,7 +17,23 @@ You can install the required library by running:
 pip install requests
 ```
 
-## How to Use
+## Quick Run (No Download)
+You can run the script directly from your terminal without needing to manually download any files. Ensure you have the `requests` library installed (`pip install requests`) before running.
+
+### Windows (PowerShell or CMD)
+```cmd
+curl.exe -sL https://raw.githubusercontent.com/Dxrmy/SteamLongArtworkUploader/master/SteamLongArtworkUploader.py | python -
+```
+
+### macOS & Linux
+```bash
+curl -sL https://raw.githubusercontent.com/Dxrmy/SteamLongArtworkUploader/master/SteamLongArtworkUploader.py | python3 -
+```
+
+---
+
+## Manual Execution
+If you prefer to download the script manually:
 1. Clone this repository or download `SteamLongArtworkUploader.py`.
 2. Grab your Steam Cookies:
    - Log into Steam on your web browser.
